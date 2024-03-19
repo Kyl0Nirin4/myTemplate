@@ -16,7 +16,7 @@ box-shadow: -7px 12px 24px 0px rgba(226, 237, 205, 1);
 }
 .container{
   display: flex;
-  
+  flex-direction:row; 
 }
 .left{
   border-radius: 16px;
@@ -30,7 +30,7 @@ box-shadow: -7px 12px 24px 0px rgba(226, 237, 205, 1);
 
 }
 .right{
-  display:block;
+  display: inline-block;
 }
 
 .mini{
@@ -47,10 +47,27 @@ h1{
   text-align: left;
 }
 input{
-  width: 200px;
+  min-width: 250px;
   border: none;
   background-color: rgb(240, 240, 240);
-  height: 30px;
-  border-radius: 30pxs;
+  height: 40px;
+  align-items: left;
+  border-radius: 10px;
   text-align: center;
+  color: #212121;
+}
+button{
+  
+  display: block; /* Makes the button a block element, enabling margin auto to work */
+  width: 50%; /* Adjust the width as needed */
+  margin: 20px auto; /* Centers the button horizontally and adds some space above and below */
+  padding: 10px 0; /* Adjust padding for better fitting, making the button taller */
+  font-size: 16px; /* Adjust font size for better readability */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  color: #fff;
+  background-color: #212121;
+  height: 40px;
+  border: none;
+  border-radius:10px ;
+  /* padding: 1rem; */
 }

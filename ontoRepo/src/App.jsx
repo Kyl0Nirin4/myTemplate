@@ -6,17 +6,17 @@ const App = ()=>{
     <div className='back'>
       <div className='container'>
       <div className='left'></div>
-      <div className='right'>
-       <form action="">
-       <h1>Welcome!</h1>
+     <form action="">
+     <div className='right'>
+        <h1>Welcome!</h1>
         <p className='mini'>log in your account</p>
-        <label htmlFor="">Email</label>
-        <input type="Email" placeholder='Usernme / yours@email.com' />
-        <label htmlFor="">Password</label>
-        <input type="Email" placeholder='Usernme / yours@email.com' />
-        <button type='submit'>Login</button>
-       </form>
-      </div>
+       <p>Email :</p>
+        <input type="Email" placeholder='Usernme / yours@email.com' required/>
+       <p>Password :</p>
+        <input type="password" placeholder='1 - 8 charracter' required/>
+     <button type='submit' className='login-button'>Login</button>
+      </div> 
+     </form>
       </div>
     </div>
   );
