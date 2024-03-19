@@ -4,39 +4,53 @@
   padding: 2rem;
   text-align: center;
 }
+.back{
+  width: 800px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: -7px 12px 24px 0px rgba(226, 237, 205, 1);
+-moz-box-shadow: -7px 12px 24px 0px rgba(226, 237, 205, 1);
+box-shadow: -7px 12px 24px 0px rgba(226, 237, 205, 1);
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.container{
+  display: flex;
+  
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+.left{
+  border-radius: 16px;
+  background-image: url(./assets/sign.png);
+  background-size:contain no-repeat;
+  background-position: center;
+  width: 350px;
+  height: 430px;
+  margin: 30px;
+  
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
+.right{
+  display:block;
 }
 
-.read-the-docs {
-  color: #888;
+.mini{
+  font-size: 12px;
+  text-align: left;
+  color: gray;
+}
+P{
+  text-align: left;
+  font-size: 14px;
+  color: gray;
+}
+h1{
+  text-align: left;
+}
+input{
+  width: 200px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  height: 30px;
+  border-radius: 30pxs;
+  text-align: center;
 }
