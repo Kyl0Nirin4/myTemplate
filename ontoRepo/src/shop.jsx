@@ -4,8 +4,24 @@ const shop = ()=>{
     return(
         <>
         <div className='container'>
-        <div className='shop'></div>
-        
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
+        <div className='shop'>
+            <div className='image-holder'></div> 
+        </div>
         </div>
         </>
     );
