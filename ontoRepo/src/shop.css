@@ -7,20 +7,41 @@
     height: 250px;
     width: 240px;
     background: rgba( 255, 255, 255, 0.2 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 15px );
--webkit-backdrop-filter: blur( 15px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border: solid 2px white;
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 10px;
+    border: solid 1px white;
     border-radius: 16px;
     margin-left: 30px ;
     margin-bottom:30px;
 }
 .image-holder{
     height: 150px;
+    background-image: url(./assets/picture.png);
+    background-size: contain no-repeat;
     width: 208px;
     background-color: #ffb4b4;
     border-radius: 10px;
     margin: 1rem;
+}
+h4{
+    color: #fff;
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+p{
+    text-align: right;
+    margin: 10px;
+    margin-left: 50px;
+    color: #fff;
+}
+boxicons{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+.semi{
+    display: inline-flex;
 }
