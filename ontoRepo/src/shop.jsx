@@ -10,8 +10,7 @@ const shop = ()=>{
             <div className='details'>
                 <div className='semi'>
                 <h4 className='product-name'>Tissu milay</h4>
-                <box-icon type='solid' name='star'></box-icon>
-                <p className='price'>120Tc</p>
+                
                 </div>
             </div>
         </div>

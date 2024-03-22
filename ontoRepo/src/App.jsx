@@ -1,10 +1,10 @@
-import Shop from './shop.jsx'
-
-
+import gsap from 'gsap'
+import Nav from './nav.jsx'
 const App = ()=>{
+
   return(
-  <Shop></Shop>
+  <Nav></Nav>
   );
 }
 
-export default App
+export default App;
